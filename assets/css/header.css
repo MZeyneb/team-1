@@ -398,3 +398,9 @@ footer ul li a{
     color: #ff003c;
     transform: rotateY(180deg);
  }
+footer li{
+    transition: 0.3s;
+}
+ footer li:hover{
+    margin-left: 10px;
+ }
