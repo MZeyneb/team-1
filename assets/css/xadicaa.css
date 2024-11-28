@@ -239,6 +239,11 @@
   .about{
  position: relative;
   }
+
+  .about img{
+    width: 100%;
+    object-fit: cover;
+  }
   .fa-solid{
     position: absolute;
     bottom: 160px;
