@@ -48,8 +48,8 @@ img{
     color: gray;
 }
 .par button{
-    width: 40%;
-    padding: 15px;
+    width: 45%;
+    height: 50px;
     background-color: #fd1f21;
     border: none;
     color: white;
@@ -73,10 +73,12 @@ img{
     display: flex;
     align-items: center;
     gap: 100px;
+    
 }
 
 .kanan-cards1{
     background-color: #fd1f21;
+    padding: 30px;
 }
 
 .kanan-card1{
@@ -87,11 +89,38 @@ img{
 }
 
 .kanan-card1 p{
-    color: gray;
-    padding: 30px;
+    color: rgb(212, 209, 209);
+    width: 250px;
 }
 
 .kanan-card1 i{
     font-size: 40px;
     color: white;
 }
+
+
+@media only screen and (max-width: 1023px) {
+    .kanan-card1 p{
+ 
+        width: 100px;   
+    }
+    .Watch .par{
+        width: 200px;
+    }
+    .Watch .par h1{
+        font-size: 30px;
+    }
+    .Watch .par p{
+        font-size: 16px;
+    }
+    .Watch .par button{
+        font-size: 12px;
+    }
+
+    .kanan-card1 i{
+        font-size: 30px;
+        color: white;
+    }
+
+
+  }
