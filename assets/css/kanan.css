@@ -79,14 +79,6 @@ img{
     width: 100%;
 }
 
-.Watch{
-    
-    display: flex;
-    flex-direction: column;
-
-    
-    
-}
 
 .img-class{
     width: 100%;
@@ -95,6 +87,7 @@ img{
 .all-class{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 100px;
     
 }
@@ -127,6 +120,8 @@ img{
  
         width: 100px;   
     }
+
+    
     .Watch .par{
         width: 200px;
     }
@@ -134,15 +129,30 @@ img{
         font-size: 30px;
     }
     .Watch .par p{
-        font-size: 16px;
+        font-size: 14px;
     }
-    .Watch .par button{
+    .Watch .par button h3{
         font-size: 12px;
     }
 
     .kanan-card1 i{
         font-size: 30px;
         color: white;
+    }
+
+    .kanan-card1 h2{
+        font-size: 18px;
+        color: white;
+    }
+
+    .kanan-card1 p{
+        font-size: 12px;
+    }
+
+
+    .all-class{
+        gap: 10px;
+        
     }
 
 
