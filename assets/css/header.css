@@ -8,7 +8,35 @@ nav{
     z-index: 1000;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 16px 0px;
 }
+.menu{
+    background-color: #545454;
+    width: 100%;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+    position: absolute;
+    z-index: 10000;
+    top: 75px;
+    display: none;
+    position: fixed;
+}
 
+.menu .btn{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: #4a4a4b;
+}
+
+.menu .btn h3{
+    color: white;
+    font-size: 20px;
+}
+
+.menu .btn i{
+    font-size: 20px;
+    color: white;
+}
 .logo img{
     width: 100%;
 }
@@ -380,6 +408,7 @@ footer ul li a{
     width: 100%;
     justify-content: space-between;
     margin: 60px 0;
+    flex-wrap: wrap;
  }
 
  footer .socials{
@@ -403,4 +432,56 @@ footer li{
 }
  footer li:hover{
     margin-left: 10px;
+ }
+
+ @media only screen and (max-width: 1024px) {
+    nav ul{
+        display: none;
+    }
+    .menu{
+    display: flex;
+        
+    }
+
+ }
+
+ @media only screen and (max-width: 764px) {
+ 
+    .menu{
+    top: 50px;
+        
+    }
+    #watch{
+        padding-top: 200px;
+        padding-bottom: 40px;
+    }
+    .watchPlace{
+        display: none;
+    }
+    #watch .selectStyle h1{
+        font-size: 50px;
+    }
+    #watch .shopNow{
+        width: 40%;
+        margin: auto;
+    }
+    #watch p, h1{
+        text-align: center;
+    }
+    .red{
+        width: 40%;
+    }
+    .socials{
+        margin: 30px auto;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 505px) {
+    .watchPlace{
+        display: none;
+    }
+    
+
  }
