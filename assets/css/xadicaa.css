@@ -216,7 +216,7 @@
 
   }
   .image{
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     width: 70%;
   }
   .cont{
@@ -310,3 +310,22 @@
     }
 }
   
+
+.imga{
+  overflow: hidden;
+}
+
+.imga img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.col-4 .texts{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.col-4 .h3-text{
+  font-weight: 400;
+}
