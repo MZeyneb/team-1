@@ -193,6 +193,11 @@
     margin-top: 20px;
     
   }
+  
+.h2-v{
+  position: absolute;
+  top: 30px;
+ }
   .texts{
     margin-top: 20px;
   }
@@ -239,31 +244,23 @@
   .about{
  position: relative;
   }
-
-  .about img{
-    width: 100%;
-    object-fit: cover;
-  }
   .fa-solid{
     position: absolute;
     bottom: 160px;
     z-index: 100;
-    left: 430px;
+    left: 500px;
     color: white;
     font-size: 20px;
+ 
   }
-   .h2-v{
-    position: absolute;
-    top: 30px;
-   }
-
-   .fa-brands {
+   .fa-solid.fa-play {
   background-color: transparent;
-    font-size: 40px;
-    border-radius: 50%;
+    font-size: 60px;
     position: absolute;
+    left: 660px;
     bottom: 450px;
     z-index: 100;
-    right: 1020px;
+  
     color: white;
    }
+  
