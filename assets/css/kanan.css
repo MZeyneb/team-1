@@ -49,11 +49,34 @@ img{
 }
 .par button{
     width: 40%;
-    padding: 15px;
+    height: 50px;
     background-color: #fd1f21;
     border: none;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.par h3{
+    z-index: 1000;
+    position: absolute;
     font-size: 20px;
+    font-weight: 200;
+}
+.overlay{
+    position: absolute;
+    transition: 0.3s;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #4c4c4c;
+}
+
+.par button:hover .overlay{
+    width: 100%;
 }
 
 .Watch{
