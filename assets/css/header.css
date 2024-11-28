@@ -1,7 +1,12 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 2% 6%;
+    padding: 3% 6%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 16px 0px;
 }
 
 .logo img{
@@ -13,6 +18,7 @@ ul{
     gap: 35px
 }
 
+
 ul li a{
     font-size: 16px;
     color: #4a4a4b;
@@ -22,7 +28,84 @@ ul li a{
 
 }
 
+.latest, .blog, .pages{
+    position: relative;
+}
+.hot{
+    position: absolute;
+    padding: 3px 10px;
+    border-radius: 7px;
+    background-color: #ff003c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    top: -22px;
+    right: -30px;
+}
 
+.hot p{
+    font-size: 10px;
+    color: white;
+}
+
+.under{
+    position: absolute;
+    bottom: -145px;
+    left: -20px;
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top: 2px solid #ff003c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s;
+    display: none;
+}
+
+.upages{
+    height: 220px;
+    bottom: -265px;
+    width: 200px;
+
+
+
+}
+.latest:hover .under{
+    display: block;
+}
+.blog:hover .under{
+    display: block;
+
+}
+.pages:hover .under{
+    display: block;
+
+}
+.under ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+.under ul li{
+    width: 100%;
+}
+.under ul li a{
+    font-weight: 600;
+
+}
+.under i{
+    position: absolute;
+    font-size: 25px;
+    color: #ff003c;
+    top: -15px;
+    left: 30px;
+}
 ul li a:hover{
     font-size: 16px;
     color: #4a4a4b;
@@ -184,7 +267,7 @@ width: 100%;
     color: #4a4a4b;
    top: 20px;
    right: 10px;
-   font-size: 30px;
+   font-size: 25px;
    font-weight: 200;
    cursor: pointer;
    opacity: 0;
@@ -222,9 +305,9 @@ color: rgb(56, 56, 56);
    bottom: 0;
 }
 
-.imge:hover .fa-heart{
+#popular .col-4 .imge:hover i{
     opacity: 1;
- }
+}
 
  .red{
     background-color: #ff003c;
@@ -306,4 +389,12 @@ footer ul li a{
 
  footer .socials i{
     color: #4a4a4b;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+
+ 
+ footer .socials i:hover{
+    color: #ff003c;
+    transform: rotateY(180deg);
  }
