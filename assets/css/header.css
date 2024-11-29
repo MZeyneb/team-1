@@ -1,7 +1,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 3% 6%;
+    padding: 30px 50px;
     width: 100%;
     position: fixed;
     background-color: white;
@@ -45,6 +45,7 @@ ul{
     display: flex;
     gap: 35px
 }
+
 
 
 ul li a{
@@ -433,6 +434,12 @@ footer li{
  footer li:hover{
     margin-left: 10px;
  }
+.arrive .text{
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+}
+
 
  @media only screen and (max-width: 1024px) {
     nav ul{
@@ -447,10 +454,7 @@ footer li{
 
  @media only screen and (max-width: 764px) {
  
-    .menu{
-    top: 50px;
-        
-    }
+   
     #watch{
         padding-top: 200px;
         padding-bottom: 40px;

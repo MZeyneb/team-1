@@ -253,12 +253,16 @@
     font-size: 20px;
  
   }
+
+  .about .player{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+  }
    .fa-solid.fa-play {
   background-color: transparent;
     font-size: 60px;
     position: absolute;
-    left: 660px;
-    bottom: 410px;
     z-index: 100;
   
     color: white;
