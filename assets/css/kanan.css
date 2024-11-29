@@ -118,3 +118,46 @@ img{
     font-size: 40px;
     color: white;
 }
+
+@media only screen and (max-width: 1023px) {
+    .kanan-card1 p{
+ 
+        width: 100px;   
+    }
+
+    
+    .Watch .par{
+        width: 200px;
+    }
+    .Watch .par h1{
+        font-size: 30px;
+    }
+    .Watch .par p{
+        font-size: 14px;
+    }
+    .Watch .par button h3{
+        font-size: 12px;
+    }
+
+    .kanan-card1 i{
+        font-size: 30px;
+        color: white;
+    }
+
+    .kanan-card1 h2{
+        font-size: 18px;
+        color: white;
+    }
+
+    .kanan-card1 p{
+        font-size: 12px;
+    }
+
+
+    .all-class{
+        gap: 10px;
+        
+    }
+
+
+  }
